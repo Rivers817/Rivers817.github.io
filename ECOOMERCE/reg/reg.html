@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="container">
+        <form action=""method="post">
+            <h2>Sign up</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter full name" name="name"required>
+                </div>
+                <div class="input-box">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter username" name="uname"required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Enter your valid email address" name="email"required>
+                </div>
+                <div class="input-box">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" placeholder="Enter phone number" name="phone"required>
+                </div>
+                <div class="input-box">
+                    <label for="password">password</label>
+                    <input type="text" placeholder="Enter  new password" name="password"required>
+                </div>
+                <div class="input-box">
+                    <label for="confirm password">Confirm your Password</label>
+                    <input type="text" placeholder="confirm password" name="confirm password"required>
+                </div>
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="male">Female</label>
+                </div>
+            </div>
+            <div class="alert">
+                <p>
+                    By clicking Sign Up, you agree to our <a href="#">Terms,</a> <a href="#"> Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+                </p>
+            </div>
+            <div class="button-container">
+            <button class="reg">
+                    <a href="index.html" onclick="ToggleEvent">Register</a>
+            </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
